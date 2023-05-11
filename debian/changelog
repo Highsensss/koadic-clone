@@ -1,0 +1,59 @@
+koadic (0~git20210412-0kali4) kali-dev; urgency=medium
+
+  * Fix the rmdir rule
+
+ -- Steev Klimaszewski <steev@kali.org>  Tue, 18 Apr 2023 23:45:07 -0500
+
+koadic (0~git20210412-0kali3) kali-dev; urgency=medium
+
+  [ Kali Janitor ]
+  * Update lintian override info format in d/source/lintian-overrides on line 2.
+  * Update standards version to 4.6.2, no changes needed.
+
+  [ Steev Klimaszewski ]
+  * Check for directory before attempting to remove it
+  * Prepare for Release
+
+ -- Steev Klimaszewski <steev@kali.org>  Tue, 18 Apr 2023 22:31:34 -0500
+
+koadic (0~git20210412-0kali2) kali-dev; urgency=medium
+
+  [ Ben Wilson ]
+  * Add executable to helper-script
+  * New helper-script format
+  * Remove template comment and switch spaces to tabs
+  [ Steev Klimaszewski ]
+  * Update d/watch to point out there is no upstream
+  * Remove impacket directory before linking
+  * Update lintian overrides
+  * Prepare for Release
+
+ -- Steev Klimaszewski <steev@kali.org>  Wed, 11 Jan 2023 09:35:32 -0600
+
+koadic (0~git20210412-0kali1) kali-dev; urgency=medium
+
+  * New upstream version 0~git20210412
+  * Bump Standards-Version to 4.6.0
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 07 Sep 2021 11:17:03 +0200
+
+koadic (0~git20200506-0kali1) kali-dev; urgency=medium
+
+  [ Kali Janitor ]
+  * Trim trailing whitespace.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Sophie Brun ]
+  * Remove useless and obsolete dependency pycrypto
+  * Add missing Python version in script
+  * Add lintian-overrides about data
+  * New upstream version 0~git20200506
+
+ -- Sophie Brun <sophie@offensive-security.com>  Wed, 28 Oct 2020 11:29:07 +0100
+
+koadic (0~git20200303-0kali1) kali-dev; urgency=medium
+
+  * Initial release
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 24 Mar 2020 14:08:48 +0100

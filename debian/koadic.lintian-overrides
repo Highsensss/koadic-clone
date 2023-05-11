@@ -1,0 +1,8 @@
+#package provides prebuilt bniary
+arch-dependent-file-in-usr-share *
+arch-independent-package-contains-binary-or-object *
+windows-devel-file-in-package [usr/share/koadic/data/bin/*]
+# these are not documentation but data
+package-contains-documentation-outside-usr-share-doc [usr/share/koadic/data/*]
+# This is a windows library provided for convenience
+no-code-sections [usr/share/koadic/data/bin/Tash/Release/Tash.lib]
